@@ -38,5 +38,5 @@ class MoneyMachine:
             self.money_received = 0
             return False
     def refilling(self):
-         self.profit-=1
+         self.profit-=1.0
         
